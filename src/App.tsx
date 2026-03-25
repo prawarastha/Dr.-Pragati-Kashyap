@@ -23,6 +23,10 @@ import {
   Sparkles,
   ArrowRight
 } from "lucide-react";
+import a1 from './assets/a1.png';
+import a2 from './assets/a2.jpeg';
+import a3 from './assets/a3.jpeg';
+import a4 from './assets/a4.png';
 import { useState, useEffect } from "react";
 
 const WHATSAPP_LINK = "https://wa.me/919521865475?text=Hi%20Doctor,%20I%20would%20like%20to%20book%20a%20physiotherapy%20session";
@@ -215,7 +219,7 @@ export default function App() {
               <div className="flex -space-x-3">
                 {[1, 2, 3, 4].map(i => (
                   <div key={i} className="w-10 h-10 rounded-full border-2 border-brand-secondary bg-brand-primary/20 overflow-hidden">
-                    <img src={`https://picsum.photos/seed/user${i}/100/100`} alt="Patient" referrerPolicy="no-referrer" />
+                    <img src={`https://picsum.photos/seed/user${i}/100/100`} alt="Patient" />
                   </div>
                 ))}
               </div>
@@ -233,10 +237,9 @@ export default function App() {
           >
             <div className="aspect-[4/5] rounded-[60px] overflow-hidden shadow-2xl relative z-10 border-[12px] border-white">
               <img 
-                src="/a4.png" 
+                src={a4} 
                 alt="Dr. Pragati Kashyap" 
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
             </div>
             {/* Floating Info Card */}
@@ -260,7 +263,7 @@ export default function App() {
             <div className="relative">
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-6">
-                  <img src="/a2.jpeg" alt="Physiotherapy Treatment" className="rounded-[40px] shadow-lg" referrerPolicy="no-referrer" />
+                  <img src={a2} alt="Physiotherapy Treatment" className="rounded-[40px] shadow-lg" />
                   <div className="bg-brand-primary p-8 rounded-[40px] text-white">
                     <p className="text-4xl font-bold mb-2">5+</p>
                     <p className="text-sm font-medium opacity-80 uppercase tracking-widest">Years of Trust</p>
@@ -271,7 +274,7 @@ export default function App() {
                     <p className="text-4xl font-bold mb-2">1k+</p>
                     <p className="text-sm font-medium opacity-80 uppercase tracking-widest">Sessions Done</p>
                   </div>
-                  <img src="/a3.jpeg" alt="Physiotherapy Treatment" className="rounded-[40px] shadow-lg" referrerPolicy="no-referrer" />
+                  <img src={a3} alt="Physiotherapy Treatment" className="rounded-[40px] shadow-lg" />
                 </div>
               </div>
             </div>
@@ -413,10 +416,9 @@ export default function App() {
             <div className="relative">
               <div className="aspect-square rounded-[80px] overflow-hidden shadow-2xl border-[16px] border-white/10">
                 <img 
-                  src="/a1.png" 
+                  src={a1} 
                   alt="Home Physiotherapy" 
                   className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
                 />
               </div>
               <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-brand-accent rounded-full -z-10 animate-pulse" />
