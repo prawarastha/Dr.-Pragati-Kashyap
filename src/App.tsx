@@ -27,7 +27,6 @@ import { useState, useEffect } from "react";
 
 const WHATSAPP_LINK = "https://wa.me/919521865475?text=Hi%20Doctor,%20I%20would%20like%20to%20book%20a%20physiotherapy%20session";
 const PHONE_1 = "9521865475";
-const PHONE_2 = "6362209446";
 
 const ServiceCard = ({ title, subtitle, items, icon: Icon }: { title: string, subtitle: string, items: string[], icon: any }) => (
   <motion.div 
@@ -485,10 +484,6 @@ export default function App() {
                       <div className="flex flex-col gap-2">
                         <a href={`tel:${PHONE_1}`} className="text-xl font-bold text-brand-dark hover:text-brand-primary transition-colors">
                           +91 {PHONE_1}
-                        </a>
-                        <a href={`tel:${PHONE_2}`} className="text-xl font-bold text-brand-dark hover:text-brand-primary transition-colors">
-                          +91 {PHONE_2}
-                        </a>
                       </div>
                     </div>
                   </div>
