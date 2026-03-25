@@ -233,7 +233,7 @@ export default function App() {
           >
             <div className="aspect-[4/5] rounded-[60px] overflow-hidden shadow-2xl relative z-10 border-[12px] border-white">
               <img 
-                src="/a (4).png" 
+                src="/a4.png" 
                 alt="Dr. Pragati Kashyap" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -260,7 +260,7 @@ export default function App() {
             <div className="relative">
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-6">
-                  <img src="/a (2).jpeg" alt="Physiotherapy Treatment" className="rounded-[40px] shadow-lg" referrerPolicy="no-referrer" />
+                  <img src="/a2.jpeg" alt="Physiotherapy Treatment" className="rounded-[40px] shadow-lg" referrerPolicy="no-referrer" />
                   <div className="bg-brand-primary p-8 rounded-[40px] text-white">
                     <p className="text-4xl font-bold mb-2">5+</p>
                     <p className="text-sm font-medium opacity-80 uppercase tracking-widest">Years of Trust</p>
@@ -271,7 +271,7 @@ export default function App() {
                     <p className="text-4xl font-bold mb-2">1k+</p>
                     <p className="text-sm font-medium opacity-80 uppercase tracking-widest">Sessions Done</p>
                   </div>
-                  <img src="/a (3).jpeg" alt="Physiotherapy Treatment" className="rounded-[40px] shadow-lg" referrerPolicy="no-referrer" />
+                  <img src="/a3.jpeg" alt="Physiotherapy Treatment" className="rounded-[40px] shadow-lg" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </div>
@@ -413,7 +413,7 @@ export default function App() {
             <div className="relative">
               <div className="aspect-square rounded-[80px] overflow-hidden shadow-2xl border-[16px] border-white/10">
                 <img 
-                  src="/a (1).png" 
+                  src="/a1.png" 
                   alt="Home Physiotherapy" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -484,6 +484,7 @@ export default function App() {
                       <div className="flex flex-col gap-2">
                         <a href={`tel:${PHONE_1}`} className="text-xl font-bold text-brand-dark hover:text-brand-primary transition-colors">
                           +91 {PHONE_1}
+                        </a>
                       </div>
                     </div>
                   </div>
