@@ -29,8 +29,8 @@ import a3 from './assets/a3.jpeg';
 import a4 from './assets/a4.png';
 import { useState, useEffect } from "react";
 
-const WHATSAPP_LINK = "https://wa.me/919521865475?text=Hi%20Doctor,%20I%20would%20like%20to%20book%20a%20physiotherapy%20session";
-const PHONE_1 = "9521865475";
+const WHATSAPP_LINK = "https://wa.me/916362209446?text=Hi%20Doctor,%20I%20would%20like%20to%20book%20a%20physiotherapy%20session";
+const PHONE_1 = "6362209446";
 
 const ServiceCard = ({ title, subtitle, items, icon: Icon }: { title: string, subtitle: string, items: string[], icon: any }) => (
   <motion.div 
@@ -91,7 +91,7 @@ const Logo = () => (
     </div>
     <div className="flex flex-col">
       <span className="font-display font-bold text-xl tracking-tight text-brand-dark leading-none">
-        Dr. Pragati <span className="text-brand-primary">Kashyap</span>
+        Dr. Pragati <span className="text-brand-primary">(PT)</span>
       </span>
       <span className="text-[10px] uppercase tracking-[0.2em] text-brand-accent font-bold mt-1.5">
         Movement & Recovery
@@ -191,11 +191,11 @@ export default function App() {
               Personalized Healing
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-brand-dark leading-[1.1] mb-4">
-              Pain Relief & Physiotherapy <span className="text-brand-primary italic">at Your Home</span>
+              Pain Relief & Physiotherapy <span className="text-brand-primary italic">at Your Home in Bangalore</span>
             </h1>
-            <p className="text-brand-primary font-bold text-lg mb-8">Dr. Pragati Kashyap | Physiotherapist</p>
+            <p className="text-brand-primary font-bold text-lg mb-8">Dr. Pragati (PT) | Physiotherapist</p>
             <p className="text-xl md:text-2xl text-brand-dark/70 mb-10 leading-relaxed max-w-xl">
-              Whether it’s back pain, a sports injury, or post-surgery recovery — get expert physiotherapy at home and start feeling better, faster.
+              Whether it’s back pain, a sports injury, or post-surgery recovery — get expert physiotherapy at home in Bangalore and start feeling better, faster.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-5">
@@ -238,14 +238,14 @@ export default function App() {
             <div className="aspect-[4/5] rounded-[60px] overflow-hidden shadow-2xl relative z-10 border-[12px] border-white">
               <img 
                 src={a4} 
-                alt="Dr. Pragati Kashyap" 
+                alt="Dr. Pragati (PT)" 
                 className="w-full h-full object-cover"
               />
             </div>
             {/* Floating Info Card */}
             <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-[32px] shadow-2xl z-20 border border-brand-primary/5 max-w-[240px]">
               <p className="text-brand-primary font-bold text-sm mb-1">Expert Care</p>
-              <p className="text-xl font-bold text-brand-dark mb-2">Dr. Pragati Kashyap</p>
+              <p className="text-xl font-bold text-brand-dark mb-2">Dr. Pragati (PT)</p>
               <p className="text-xs text-brand-dark/60 font-medium leading-relaxed">Physiotherapist at Health India Hospital</p>
             </div>
             
@@ -292,7 +292,7 @@ export default function App() {
                   Pain isn’t just physical — it affects how you move, work, and live your daily life.
                 </p>
                 <p>
-                  <span className="font-bold text-brand-dark">Dr. Pragati Kashyap</span>, a physiotherapist at Health India Hospital, focuses on not just treating symptoms, but understanding the root cause of your discomfort.
+                  <span className="font-bold text-brand-dark">Dr. Pragati (PT)</span>, a physiotherapist at Health India Hospital, focuses on not just treating symptoms, but understanding the root cause of your discomfort.
                 </p>
                 <p>
                   Every session is designed around you — your lifestyle, your body, and your recovery goals. With home visits, you receive expert care in a space where you feel most comfortable.
@@ -382,7 +382,7 @@ export default function App() {
               <h2 className="text-white/60 font-bold tracking-widest uppercase text-sm mb-6">Comfortable Healing</h2>
               <h3 className="text-4xl md:text-6xl font-bold mb-10 leading-tight">Healing Should Be Comfortable</h3>
               <p className="text-xl text-white/80 mb-12 leading-relaxed">
-                When you’re in pain, even stepping out of your home can feel exhausting. That’s why Dr. Pragati brings physiotherapy to you — so you can focus on healing without the stress of travel.
+                When you’re in pain, even stepping out of your home can feel exhausting. That’s why Dr. Pragati brings physiotherapy to you across Bangalore — so you can focus on healing without the stress of travel.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-8 mb-12">
@@ -592,8 +592,11 @@ export default function App() {
           <Logo />
           
           <div className="flex flex-col items-center md:items-end gap-6">
-            <p className="text-brand-dark/40 text-sm font-bold uppercase tracking-widest">
-              © {new Date().getFullYear()} Dr. Pragati Kashyap. All rights reserved.
+            <p className="text-brand-dark/60 text-sm font-bold uppercase tracking-widest mb-1">
+              Serving Bangalore
+            </p>
+            <p className="text-brand-dark/40 text-xs font-medium uppercase tracking-widest">
+              © {new Date().getFullYear()} Dr. Pragati (PT). All rights reserved.
             </p>
             <div className="flex gap-8">
               <a href={`tel:${PHONE_1}`} className="text-brand-dark/30 hover:text-brand-primary transition-colors"><Phone size={24} /></a>
